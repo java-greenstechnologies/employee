@@ -16,6 +16,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.greens.employee.model.Employee;
 import com.greens.employee.service.EmployeeService;
 
+/**
+ * 
+ * EmployeeController provides 
+ * Uri for all the CRUD operations
+ *
+ */
+
 @RestController
 @RequestMapping("/employee/api/v1/")
 public class EmployeeController {
